@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#menu-bar {
+    border-bottom: 1px solid gold;
+    background-color: black;
+    padding: 10px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    color: white;
+    
+    z-index: 3;
+}
+
+.headers {
+    
+    float: left;
+    font-size: 40px;
+    padding-left: 15px;
+    
+}
+.headers a{
+    text-decoration: none;
+    color: gold;
+}
+
+.menu-headers {
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.menu-headers li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+.menulink {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+   
+}
+
+.menulink:hover {
+    color: gold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+main {
+    margin-top: 70px;
+    padding: 20px;
+
+}
+
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 140vh;
+    grid-template-columns: repeat(auto-fill, minmax(300px,400px));
+    grid-template-rows: repeat(auto-fill, minmax(200px, 300px));
+    grid-gap: 10px 10px;
+    
+    position: relative;
+    left: 125px;
+    
+}
+
+.box {
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 215, 0, 50%);
+}
+
+.global-pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: transform .2s;
+}
+
+.global-pic:hover {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 999;
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+    background-size: contain;
+}
+
+.image1 {
+    background-image: url(image/FlowerGallery/image.jpg);
+}
+.image2 {
+    background-image: url(image/FlowerGallery/image2.jpg);
+}
+.image3 {
+    background-image: url(image/FlowerGallery/image3.JPG);
+}
+
+.image4 {
+    background-image: url(image/FlowerGallery/image4.jpg);
+}
+.image5 {
+    background-image: url(image/FlowerGallery/image5.jpg);
+}
+.image6 {
+    background-image: url(image/FlowerGallery/image6.jpg);
+}
+.image7 {
+    background-image: url(image/FlowerGallery/image7.jpg);
+}
+.image8 {
+    background-image: url(image/FlowerGallery/image8.jpg);
+}
+.image9 {
+    background-image: url(image/FlowerGallery/image9.jpg);
+}
+.image10 {
+    background-image: url(image/FlowerGallery/image10.jpg);
+}
+.image11 {
+    background-image: url(image/FlowerGallery/image11.jpg);
+}
+.image12 {
+    background-image: url(image/FlowerGallery/image12.jpg);
+}
+.image13 {
+    background-image: url(image/FlowerGallery/image13.jpg);
+}
+.image14 {
+    background-image: url(image/FlowerGallery/image14.jpg);
+}
+.image15 {
+    background-image: url(image/FlowerGallery/image15.jpg);
+}
+
+
+footer {
+    
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10%;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer a:hover {
+    color: gold;
+}
+
+footer .backArrow {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+footer .nextArrow {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

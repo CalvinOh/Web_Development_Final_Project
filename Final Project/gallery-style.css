@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#menu-bar {
+    border-bottom: 1px solid gold;
+    background-color: black;
+    padding: 10px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    color: white;
+    
+    z-index: 3;
+}
+
+.headers {
+    
+    float: left;
+    font-size: 40px;
+    padding-left: 15px;
+    
+}
+.headers a{
+    text-decoration: none;
+    color: gold;
+}
+
+.menu-headers {
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.menu-headers li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+.menulink {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+   
+}
+
+.menulink:hover {
+    color: gold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+.right-f {
+    float: right;
+}
+
+.rose-gallery {
+    position: fixed;
+    min-height: 100vh;
+    max-width: 30%;
+    float: left;
+    width: 30%;
+    
+}
+
+.garden-gallery {
+    position: fixed;
+    min-height: 55vh;
+    max-width: 70%;
+    width: 70%;
+}
+
+.ocean-gallery {
+    position: fixed;
+    min-height: 45vh;
+    max-width: 70%;
+    width: 70%;
+}
+
+.rose-gallery.bg-image-1 {
+    background-image: url(image/GalleryImages/rose-bg.jpg);
+
+}
+
+.garden-gallery.bg-image-2 {
+    background-image: url(image/GalleryImages/garden-bg.jpg);
+}
+.ocean-gallery.bg-image-3 {
+    background-image: url(image/GalleryImages/ocean-bg.jpg);
+}
+
+.left-bg {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: contain;
+}
+.right-bg {
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: cover;
+}
+
+.fixed-bg_content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    text-align: center;
+    font-size: 40px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.fixed-bg_content h2 {
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+
+.rose-button {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.4s;
+}
+.rose-button:hover {
+    background-color: #1a1a1a;
+    color: gold;
+}
+
+
