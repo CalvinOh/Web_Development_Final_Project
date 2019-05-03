@@ -63,15 +63,12 @@
 }
 img{
     vertical-align: middle;
-    min-width: 101%;
-    max-width: 101%;
-    height: 92vh;
-
+    width: 100%;
+    height: calc(100vh - 65px);
 }
 .slides {
     display: none;
 }
-
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -86,21 +83,21 @@ img{
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
-
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-
-
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+    animation-name: fade; 
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {opacity: .1}
+    to {opacity: 1}
 }
 
 /*Old SlideShow CSS*/
@@ -165,7 +162,6 @@ img {
 footer {
     
     padding-left: 10px;
-    padding-bottom: 10px;
     font-size: 45px;
     z-index: 6;
 }
