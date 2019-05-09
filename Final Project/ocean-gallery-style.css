@@ -95,7 +95,12 @@ img{
     
 }
 
+#pause {
+    display: none;
+}
+
 .pauseMenu {
+    display: block;
     position: absolute;
     width: 100%;
     height: 100vh;
